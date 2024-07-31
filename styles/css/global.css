@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.flex, .link, .btn, .btn-outline, .product-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-wrap {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.items-center, .btn-outline, .product-btn {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.btn-text, .btn, .btn-outline, .product-btn {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0.200000003px;
+}
+
+.btn, .btn-outline, .product-btn {
+  gap: 15px;
+  color: #fff;
+  padding: 15px 40px;
+  border-radius: 5px;
+  background-color: #23A6F0;
+}
+
+.btn-outline, .product-btn {
+  color: #23A6F0;
+  background-color: transparent;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border: 1px solid #23A6F0;
+}
+
+.btn-outline:hover, .product-btn:hover {
+  color: #fff !important;
+  background-color: #23A6F0;
+}
+
+.product-btn {
+  padding: 10px 20px;
+  border-radius: 37px;
+}
+
+.product-btn:hover {
+  color: #fff !important;
+  background-color: #23A6F0;
+}
+.product-btn:hover svg path {
+  fill: #fff;
+}
+
+.link {
+  gap: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.200000003px;
+}
+
+.heading-2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0.200000003px;
+}
+
+.heading-3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  color: #252B42;
+  letter-spacing: 0.1000000015px;
+}
+
+.heading-5 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #252B42;
+  letter-spacing: 0.1000000015px;
+}
+
+.heading-6 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.200000003px;
+}
+
+.paragraph {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.200000003px;
+}
+
+.small {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #737373;
+  letter-spacing: 0.200000003px;
+}/*# sourceMappingURL=global.css.map */

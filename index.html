@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrandName</title>
+    <link rel="stylesheet" href="styles/css/global.css">
+    <link rel="stylesheet" href="styles/css/main.css">
+</head>
+
+<body>
+
+    <header class="header" id="home">
+        <nav class="header__navbar container flex items-center">
+            <h3 class="logo heading-3">BrandName</h3>
+
+            <ul class="header__navbar-menu flex">
+                <li><a href="#home" class="header__navbar-menu__link link">Home</a></li>
+                <li><a href="#product" class="header__navbar-menu__link link">Product</a></li>
+                <li><a href="#" class="header__navbar-menu__link link">Pricing</a></li>
+                <li><a href="#" class="header__navbar-menu__link link">Contact</a></li>
+            </ul>
+
+            <a href="#" class="btn-text">Login</a>
+            <a href="#" class="btn">JOIN US <img src="images/right-arrow.svg" alt="right-arrow"></a>
+
+            <div class="header__navbar-mobile">
+                <input type="checkbox" id="burger-checkbox" class="burger-checkbox">
+                <label for="burger-checkbox" class="burger"></label>
+
+                <ul class="header__navbar-mobile__links">
+                    <li><a href="#home" class="link">Home</a></li>
+                    <li><a href="#product" class="link">Product</a></li>
+                    <li><a href="#" class="link">Pricing</a></li>
+                    <li><a href="#" class="link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="header__hero container">
+            <div class="header__hero-info">
+                <h5 class="heading-5">Welcome</h5>
+                <h1>Selling on the internet like a pro</h1>
+                <p>We know how large objects will act, but things on a
+                    small scale just do not act that way.</p>
+
+                <div class="flex">
+                    <a href="#" class="btn">Get Quote Now</a>
+                    <a href="#" class="btn-outline">Learn More</a>
+                </div>
+            </div>
+            <div class="header__hero-features flex flex-wrap">
+                <div class="header__hero-features__item" style="--bg-color:#fff;">
+                    <img src="images/face.svg" alt="face" style="--bg-color:#B2E3FF;">
+                    <h5 class="heading-5" style="--color:#252B42;">Market Analysis</h5>
+                    <div class="divider" style="--bg-color:#E74040;"></div>
+                    <p class="paragraph" style="--color:#737373;">The gradual accumulation of
+                        information about atomic and
+                        small-scale behaviour...</p>
+                </div>
+                <div class="header__hero-features__item" style="--bg-color:#fff;">
+                    <img src="images/checked.svg" alt="checked" style="--bg-color:#B9EAA8;">
+                    <h5 class="heading-5" style="--color:#252B42;">Evaluation Time</h5>
+                    <div class="divider" style="--bg-color:#E74040;"></div>
+                    <p class="paragraph" style="--color:#737373;">The gradual accumulation of
+                        information about atomic and
+                        small-scale behaviour...</p>
+                </div>
+                <div class="header__hero-features__item" style="--bg-color:#23A6F0;">
+                    <img src="images/courses.svg" alt="courses" style="--bg-color:#fff;">
+                    <h5 class="heading-5" style="--color:#fff;">Market Analysis</h5>
+                    <div class="divider" style="--bg-color:#fff;"></div>
+                    <p class="paragraph" style="--color:#fff;">The gradual accumulation of
+                        information about atomic and
+                        small-scale behaviour...</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="main">
+        <section class="main__packages container flex flex-wrap between items-center">
+            <img src="images/bg-image.png" alt="bg-image">
+
+            <div class="main__packages-info">
+                <div class="divider"></div>
+
+                <h2 class="heading-2">Packages that
+                    are aprodable</h2>
+                <p class="paragraph">Problems trying to resolve the conflict between
+                    the two major realms of Classical physics:
+                    Newtonian mechanics </p>
+
+                <a href="#" class="link">Learn More <img src="images/right-arrow1.svg" alt="right-arrow"></a>
+            </div>
+        </section>
+        <section class="main__product container" id="product">
+
+            <h6 class="heading-6">Practice Advice</h6>
+            <h2 class="heading-2">Make online education accessible</h2>
+            <p class="paragraph">Problems trying to resolve the conflict between<br>
+                the two major realms of Classical physics: Newtonian mechanics </p>
+
+            <div class="main__product-items flex flex-wrap">
+                <div class="main__product-items__item">
+                    <div class="main__product-items__item-badge heading-6">Sale</div>
+                    <div class="main__product-items__item-controls flex">
+                        <img src="images/heart.svg" alt="heart">
+                        <img src="images/cart.svg" alt="cart">
+                        <img src="images/eyes.svg" alt="eyes">
+                    </div>
+                    <img src="images/product-image.jpg" alt="product-image">
+                    <div class="main__product-items__item-info">
+                        <div class="flex between">
+                            <p class="main__product-items__item-language link">English</p>
+                            <div class="main__product-items__item-rating flex items-center">
+                                <img src="images/star.svg" alt="star">
+                                <p class="small">4.9</p>
+                            </div>
+                        </div>
+                        <h3 class="main__product-items__item-title">Graphic Design</h3>
+                        <p class="main__product-items__item-description">We focus on ergonomics
+                            and meeting you....</p>
+                        <div class="main__product-items__item-sales flex">
+                            <img src="images/sales.svg" alt="sales">
+                            <h6 class="heading-6">15 Sales</h6>
+                        </div>
+                        <div class="main__product-items__item-price flex">
+                            <p>$16.48</p>
+                            <p>$6.48</p>
+                        </div>
+                        <div class="main__product-items__item-features flex">
+                            <div class="main__product-items__item-feature flex">
+                                <img src="images/hours.svg" alt="hours">
+                                <p class="small">Pro...</p>
+                            </div>
+                            <div class="main__product-items__item-feature flex">
+                                <img src="images/waves.svg" alt="waves">
+                                <p class="small">64 Les...</p>
+                            </div>
+                            <div class="main__product-items__item-feature flex">
+                                <img src="images/hours.svg" alt="hours">
+                                <p class="small">22hr...</p>
+                            </div>
+                        </div>
+                        <a href="#" class="product-btn">Learn More
+                            <svg width="10" height="17" viewBox="0 0 10 17" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M0.680771 0.680771C0.737928 0.623469 0.805828 0.578007 0.880583 0.546987C0.955337 0.515967 1.03548 0.5 1.11641 0.5C1.19735 0.5 1.27749 0.515967 1.35224 0.546987C1.427 0.578007 1.4949 0.623469 1.55205 0.680771L8.9358 8.06452C8.9931 8.12168 9.03857 8.18958 9.06959 8.26433C9.10061 8.33909 9.11657 8.41923 9.11657 8.50016C9.11657 8.5811 9.10061 8.66124 9.06959 8.73599C9.03857 8.81074 8.9931 8.87865 8.9358 8.9358L1.55205 16.3196C1.43651 16.4351 1.27981 16.5 1.11641 16.5C0.953015 16.5 0.79631 16.4351 0.680771 16.3196C0.565232 16.204 0.500322 16.0473 0.500322 15.8839C0.500322 15.7205 0.565232 15.5638 0.680771 15.4483L7.63011 8.50016L0.680771 1.55205C0.623469 1.4949 0.578006 1.427 0.546986 1.35224C0.515967 1.27749 0.5 1.19735 0.5 1.11641C0.5 1.03548 0.515967 0.955338 0.546986 0.880583C0.578006 0.805829 0.623469 0.737928 0.680771 0.680771V0.680771Z"
+                                    fill="#23A6F0" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="main__product-items__item">
+                    <div class="main__product-items__item-badge heading-6">Sale</div>
+                    <div class="main__product-items__item-controls flex">
+                        <img src="images/heart.svg" alt="heart">
+                        <img src="images/cart.svg" alt="cart">
+                        <img src="images/eyes.svg" alt="eyes">
+                    </div>
+                    <img src="images/product-image1.jpg" alt="product-image">
+                    <div class="main__product-items__item-info">
+                        <div class="flex between">
+                            <p class="main__product-items__item-language link">English</p>
+                            <div class="main__product-items__item-rating flex items-center">
+                                <img src="images/star.svg" alt="star">
+                                <p class="small">4.9</p>
+                            </div>
+                        </div>
+                        <h3 class="main__product-items__item-title">Graphic Design</h3>
+                        <p class="main__product-items__item-description">We focus on ergonomics
+                            and meeting you....</p>
+                        <div class="main__product-items__item-sales flex">
+                            <img src="images/sales.svg" alt="sales">
+                            <h6 class="heading-6">15 Sales</h6>
+                        </div>
+                        <div class="main__product-items__item-price flex">
+                            <p>$16.48</p>
+                            <p>$6.48</p>
+                        </div>
+                        <div class="main__product-items__item-features flex">
+                            <div class="main__product-items__item-feature flex">
+                                <img src="images/hours.svg" alt="hours">
+                                <p class="small">Pro...</p>
+                            </div>
+                            <div class="main__product-items__item-feature flex">
+                                <img src="images/waves.svg" alt="waves">
+                                <p class="small">64 Les...</p>
+                            </div>
+                            <div class="main__product-items__item-feature flex">
+                                <img src="images/hours.svg" alt="hours">
+                                <p class="small">22hr...</p>
+                            </div>
+                        </div>
+                        <a href="#" class="product-btn">Learn More
+                            <svg width="10" height="17" viewBox="0 0 10 17" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M0.680771 0.680771C0.737928 0.623469 0.805828 0.578007 0.880583 0.546987C0.955337 0.515967 1.03548 0.5 1.11641 0.5C1.19735 0.5 1.27749 0.515967 1.35224 0.546987C1.427 0.578007 1.4949 0.623469 1.55205 0.680771L8.9358 8.06452C8.9931 8.12168 9.03857 8.18958 9.06959 8.26433C9.10061 8.33909 9.11657 8.41923 9.11657 8.50016C9.11657 8.5811 9.10061 8.66124 9.06959 8.73599C9.03857 8.81074 8.9931 8.87865 8.9358 8.9358L1.55205 16.3196C1.43651 16.4351 1.27981 16.5 1.11641 16.5C0.953015 16.5 0.79631 16.4351 0.680771 16.3196C0.565232 16.204 0.500322 16.0473 0.500322 15.8839C0.500322 15.7205 0.565232 15.5638 0.680771 15.4483L7.63011 8.50016L0.680771 1.55205C0.623469 1.4949 0.578006 1.427 0.546986 1.35224C0.515967 1.27749 0.5 1.19735 0.5 1.11641C0.5 1.03548 0.515967 0.955338 0.546986 0.880583C0.578006 0.805829 0.623469 0.737928 0.680771 0.680771V0.680771Z"
+                                    fill="#23A6F0" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="main__product-items__item">
+                    <div class="main__product-items__item-badge heading-6">Sale</div>
+                    <div class="main__product-items__item-controls flex">
+                        <img src="images/heart.svg" alt="heart">
+                        <img src="images/cart.svg" alt="cart">
+                        <img src="images/eyes.svg" alt="eyes">
+                    </div>
+                    <img src="images/product-image2.jpg" alt="product-image">
+                    <div class="main__product-items__item-info">
+                        <div class="flex between">
+                            <p class="main__product-items__item-language link">English</p>
+                            <div class="main__product-items__item-rating flex items-center">
+                                <img src="images/star.svg" alt="star">
+                                <p class="small">4.9</p>
+                            </div>
+                        </div>
+                        <h3 class="main__product-items__item-title">Graphic Design</h3>
+                        <p class="main__product-items__item-description">We focus on ergonomics
+                            and meeting you....</p>
+                        <div class="main__product-items__item-sales flex">
+                            <img src="images/sales.svg" alt="sales">
+                            <h6 class="heading-6">15 Sales</h6>
+                        </div>
+                        <div class="main__product-items__item-price flex">
+                            <p>$16.48</p>
+                            <p>$6.48</p>
+                        </div>
+                        <div class="main__product-items__item-features flex">
+                            <div class="main__product-items__item-feature flex">
+                                <img src="images/hours.svg" alt="hours">
+                                <p class="small">Pro...</p>
+                            </div>
+                            <div class="main__product-items__item-feature flex">
+                                <img src="images/waves.svg" alt="waves">
+                                <p class="small">64 Les...</p>
+                            </div>
+                            <div class="main__product-items__item-feature flex">
+                                <img src="images/hours.svg" alt="hours">
+                                <p class="small">22hr...</p>
+                            </div>
+                        </div>
+                        <a href="#" class="product-btn">Learn More
+                            <svg width="10" height="17" viewBox="0 0 10 17" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M0.680771 0.680771C0.737928 0.623469 0.805828 0.578007 0.880583 0.546987C0.955337 0.515967 1.03548 0.5 1.11641 0.5C1.19735 0.5 1.27749 0.515967 1.35224 0.546987C1.427 0.578007 1.4949 0.623469 1.55205 0.680771L8.9358 8.06452C8.9931 8.12168 9.03857 8.18958 9.06959 8.26433C9.10061 8.33909 9.11657 8.41923 9.11657 8.50016C9.11657 8.5811 9.10061 8.66124 9.06959 8.73599C9.03857 8.81074 8.9931 8.87865 8.9358 8.9358L1.55205 16.3196C1.43651 16.4351 1.27981 16.5 1.11641 16.5C0.953015 16.5 0.79631 16.4351 0.680771 16.3196C0.565232 16.204 0.500322 16.0473 0.500322 15.8839C0.500322 15.7205 0.565232 15.5638 0.680771 15.4483L7.63011 8.50016L0.680771 1.55205C0.623469 1.4949 0.578006 1.427 0.546986 1.35224C0.515967 1.27749 0.5 1.19735 0.5 1.11641C0.5 1.03548 0.515967 0.955338 0.546986 0.880583C0.578006 0.805829 0.623469 0.737928 0.680771 0.680771V0.680771Z"
+                                    fill="#23A6F0" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="main__product-items__item">
+                    <div class="main__product-items__item-badge heading-6">Sale</div>
+                    <div class="main__product-items__item-controls flex">
+                        <img src="images/heart.svg" alt="heart">
+                        <img src="images/cart.svg" alt="cart">
+                        <img src="images/eyes.svg" alt="eyes">
+                    </div>
+                    <img src="images/product-image3.jpg" alt="product-image">
+                    <div class="main__product-items__item-info">
+                        <div class="flex between">
+                            <p class="main__product-items__item-language link">English</p>
+                            <div class="main__product-items__item-rating flex items-center">
+                                <img src="images/star.svg" alt="star">
+                                <p class="small">4.9</p>
+                            </div>
+                        </div>
+                        <h3 class="main__product-items__item-title">Graphic Design</h3>
+                        <p class="main__product-items__item-description">We focus on ergonomics
+                            and meeting you....</p>
+                        <div class="main__product-items__item-sales flex">
+                            <img src="images/sales.svg" alt="sales">
+                            <h6 class="heading-6">15 Sales</h6>
+                        </div>
+                        <div class="main__product-items__item-price flex">
+                            <p>$16.48</p>
+                            <p>$6.48</p>
+                        </div>
+                        <div class="main__product-items__item-features flex">
+                            <div class="main__product-items__item-feature flex">
+                                <img src="images/hours.svg" alt="hours">
+                                <p class="small">Pro...</p>
+                            </div>
+                            <div class="main__product-items__item-feature flex">
+                                <img src="images/waves.svg" alt="waves">
+                                <p class="small">64 Les...</p>
+                            </div>
+                            <div class="main__product-items__item-feature flex">
+                                <img src="images/hours.svg" alt="hours">
+                                <p class="small">22hr...</p>
+                            </div>
+                        </div>
+                        <a href="#" class="product-btn">Learn More
+                            <svg width="10" height="17" viewBox="0 0 10 17" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M0.680771 0.680771C0.737928 0.623469 0.805828 0.578007 0.880583 0.546987C0.955337 0.515967 1.03548 0.5 1.11641 0.5C1.19735 0.5 1.27749 0.515967 1.35224 0.546987C1.427 0.578007 1.4949 0.623469 1.55205 0.680771L8.9358 8.06452C8.9931 8.12168 9.03857 8.18958 9.06959 8.26433C9.10061 8.33909 9.11657 8.41923 9.11657 8.50016C9.11657 8.5811 9.10061 8.66124 9.06959 8.73599C9.03857 8.81074 8.9931 8.87865 8.9358 8.9358L1.55205 16.3196C1.43651 16.4351 1.27981 16.5 1.11641 16.5C0.953015 16.5 0.79631 16.4351 0.680771 16.3196C0.565232 16.204 0.500322 16.0473 0.500322 15.8839C0.500322 15.7205 0.565232 15.5638 0.680771 15.4483L7.63011 8.50016L0.680771 1.55205C0.623469 1.4949 0.578006 1.427 0.546986 1.35224C0.515967 1.27749 0.5 1.19735 0.5 1.11641C0.5 1.03548 0.515967 0.955338 0.546986 0.880583C0.578006 0.805829 0.623469 0.737928 0.680771 0.680771V0.680771Z"
+                                    fill="#23A6F0" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="main__review">
+            <div class="container">
+                <h6 class="heading-6">Practice Advice</h6>
+                <h2 class="heading-2">Each and every client is important.</h2>
+                <p class="paragraph">Problems trying to resolve the conflict between<br>
+                    the two major realms of Classical physics: Newtonian mechanics</p>
+
+                <div class="main__review-items flex flex-wrap">
+                    <div class="main__review-items__item">
+                        <img src="images/advice-image.png" alt="advice-image">
+                        <p>Slate helps you see how many more days
+                            you need to work to reach your financial
+                            goal for the month and year.</p>
+                        <div class="main__review-items__item-rating flex items-center">
+                            <img src="images/star1.svg" alt="star">
+                            <img src="images/star1.svg" alt="star">
+                            <img src="images/star1.svg" alt="star">
+                            <img src="images/star1.svg" alt="star">
+                            <img src="images/star-outline.svg" alt="star">
+                        </div>
+                        <h5 class="heading-5">Regina Miles</h5>
+                        <h6 class="heading-6">Designer</h6>
+                    </div>
+                    <div class="main__review-items__item">
+                        <img src="images/advice-image1.png" alt="advice-image">
+                        <p>Slate helps you see how many more days
+                            you need to work to reach your financial
+                            goal for the month and year.</p>
+                        <div class="main__review-items__item-rating flex items-center">
+                            <img src="images/star1.svg" alt="star">
+                            <img src="images/star1.svg" alt="star">
+                            <img src="images/star1.svg" alt="star">
+                            <img src="images/star1.svg" alt="star">
+                            <img src="images/star-outline.svg" alt="star">
+                        </div>
+                        <h5 class="heading-5">Regina Miles</h5>
+                        <h6 class="heading-6">Designer</h6>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="main__subscribe container">
+            <h6 class="heading-6">Practice Advice</h6>
+            <h2 class="heading-2">Featured Products</h2>
+            <p class="paragraph">Problems trying to resolve the conflict between<br>
+                the two major realms of Classical physics: Newtonian mechanics</p>
+
+            <form class="main__subscribe-input flex">
+                <input type="email" placeholder="Your Email">
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <div class="footer__items container flex flex-wrap">
+            <div class="footer__items-item">
+                <h3 class="heading-3">Get In Touch</h3>
+                <p class="paragraph">the quick fox jumps over the
+                    lazy dog</p>
+                <div class="footer__items-item__socials flex">
+                    <a href="#"><img src="images/facebook.svg" alt="facebook"></a>
+                    <a href="#"><img src="images/instagram.svg" alt="instagram"></a>
+                    <a href="#"><img src="images/twitter.svg" alt="twitter"></a>
+                </div>
+            </div>
+            <div class="footer__items-item">
+                <h3 class="heading-3">Company info</h3>
+                <ul class="footer__items-item__links flex">
+                    <li class="footer__items-item__link link"><a href="#">About Us</a></li>
+                    <li class="footer__items-item__link link"><a href="#">Carrier</a></li>
+                    <li class="footer__items-item__link link"><a href="#">We are hiring</a></li>
+                    <li class="footer__items-item__link link"><a href="#">Blog</a></li>
+                </ul>
+            </div>
+            <div class="footer__items-item">
+                <h3 class="heading-3">Features</h3>
+                <ul class="footer__items-item__links flex">
+                    <li class="footer__items-item__link link"><a href="#">Business Marketing</a></li>
+                    <li class="footer__items-item__link link"><a href="#">User Analytic</a></li>
+                    <li class="footer__items-item__link link"><a href="#">Live Chat</a></li>
+                    <li class="footer__items-item__link link"><a href="#">Unlimited Support</a></li>
+                </ul>
+            </div>
+            <div class="footer__items-item">
+                <h3 class="heading-3">Resources</h3>
+                <ul class="footer__items-item__links flex">
+                    <li class="footer__items-item__link link"><a href="#">IOS & Android</a></li>
+                    <li class="footer__items-item__link link"><a href="#">Watch a Demo</a></li>
+                    <li class="footer__items-item__link link"><a href="#">Customers</a></li>
+                    <li class="footer__items-item__link link"><a href="#">API</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__copyright">
+            <h6 class="heading-6">Made With Love By Figmaland All Right Reserved</h6>
+        </div>
+    </footer>
+</body>
+
+</html>
